@@ -154,7 +154,7 @@ export default function App() {
       <div className="w-full max-w-4xl grid grid-cols-2 gap-4 mb-4">
 
         {/* Panel izquierdo — entrada */}
-        <div className="bg-white/[0.05] backdrop-blur-sm rounded-2xl border border-white/[0.06] p-5 flex flex-col">
+        <div className="bg-white/[0.05] backdrop-blur-lg rounded-2xl border border-white/[0.06] p-5 flex flex-col">
           <div className="h-9 flex items-center justify-between mb-4">
             <span className="text-xs font-semibold text-blue-400 uppercase tracking-widest">
               Texto origen
@@ -192,7 +192,7 @@ export default function App() {
         </div>
 
         {/* Panel derecho — resultado */}
-        <div className="bg-white/[0.05] backdrop-blur-sm rounded-2xl border border-white/[0.06] p-5 flex flex-col">
+        <div className="bg-white/[0.05] backdrop-blur-lg  rounded-2xl border border-white/[0.06] p-5 flex flex-col">
           <div className="h-9 flex items-center justify-between mb-4">
             <span className="text-xs font-semibold text-blue-400 uppercase tracking-widest">
               Traducción
@@ -243,7 +243,7 @@ export default function App() {
       </div>
 
       {/* Panel de agentes */}
-      <div className="w-full max-w-4xl bg-white/[0.05] backdrop-blur-sm rounded-2xl border border-white/[0.06] p-5">
+      <div className="w-full max-w-4xl bg-white/[0.05] backdrop-blur-lg  rounded-2xl border border-white/[0.06] p-5">
         <p className="text-xs font-semibold text-blue-400 uppercase tracking-widest mb-4">
           Pipeline de agentes
         </p>

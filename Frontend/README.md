@@ -26,10 +26,12 @@ npm install
 
 ## Ejecución
 ### Terminal 1
-cd backend && uvicorn main:app --reload --port 8000
+cd .\backend\ 
+uvicorn main:app --reload --port 8000
 
 ### Terminal 2
-cd Frontend && npm run dev
+cd .\Frontend\
+npm run dev
 
 ## Uso
 Abrir http://localhost:5173 en el navegador.
